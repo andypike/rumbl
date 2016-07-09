@@ -6,9 +6,15 @@ defmodule Rumbl.Repo do
 
   def all(Rumbl.User) do
     [
-      %Rumbl.User{id: "1", name: "Jose", username: "josevalim", password: "elixir"},
-      %Rumbl.User{id: "2", name: "Bruce", username: "redrapids", password: "7langs"},
-      %Rumbl.User{id: "3", name: "Chris", username: "chrismccord", password: "phx"}
+      %Rumbl.User{
+        id: "1", name: "Jose", username: "josevalim", password: "elixir"
+      },
+      %Rumbl.User{
+        id: "2", name: "Bruce", username: "redrapids", password: "7langs"
+      },
+      %Rumbl.User{
+        id: "3", name: "Chris", username: "chrismccord", password: "phx"
+      }
     ]
   end
 
