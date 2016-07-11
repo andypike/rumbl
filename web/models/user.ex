@@ -1,8 +1,16 @@
 defmodule Rumbl.User do
-
   @moduledoc """
-  Represents a user of the system
+  Repesents a user in the system
   """
 
-  defstruct [:id, :name, :username, :password]
+  use Rumbl.Web, :model
+
+  schema "users" do
+    field :name,          :string
+    field :username,      :string
+    field :password,      :string, virtual: true
+    field :password_hash, :string
+
+    timestamps
+  end
 end
