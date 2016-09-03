@@ -1,4 +1,8 @@
 defmodule Rumbl.Permalink do
+  @moduledoc """
+  Repesents a permalink in the system
+  """
+
   @behaviour Ecto.Type
 
   def type, do: :id

@@ -1,4 +1,8 @@
 defmodule Rumbl.Annotation do
+  @moduledoc """
+  Repesents a annotation in the system
+  """
+
   use Rumbl.Web, :model
 
   schema "annotations" do

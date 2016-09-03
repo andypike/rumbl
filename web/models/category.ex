@@ -1,4 +1,8 @@
 defmodule Rumbl.Category do
+  @moduledoc """
+  Repesents a category in the system
+  """
+
   use Rumbl.Web, :model
 
   schema "categories" do
@@ -21,6 +25,6 @@ defmodule Rumbl.Category do
   end
 
   def names_and_ids(query) do
-    from c in query, select: {c.name, c.id} 
+    from c in query, select: {c.name, c.id}
   end
 end

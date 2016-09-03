@@ -1,4 +1,8 @@
 defmodule Rumbl.Video do
+  @moduledoc """
+  Repesents a video in the system
+  """
+
   use Rumbl.Web, :model
 
   @primary_key {:id, Rumbl.Permalink, autogenerate: true}

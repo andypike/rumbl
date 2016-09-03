@@ -53,7 +53,7 @@ defmodule Rumbl.Mixfile do
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
       {:comeonin, "~> 2.0"},
-      {:credo, "~> 0.4", only: [:dev, :test]},
+      {:credo, "~> 0.4.11", only: [:dev, :test]},
       {:plug, "~> 1.2-rc", override: true}
     ]
   end

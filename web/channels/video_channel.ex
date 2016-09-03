@@ -1,4 +1,8 @@
 defmodule Rumbl.VideoChannel do
+  @moduledoc """
+  Handles channel comms for videos
+  """
+
   use Rumbl.Web, :channel
 
   alias Rumbl.User
