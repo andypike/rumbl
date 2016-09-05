@@ -18,8 +18,6 @@ defmodule Rumbl do
       supervisor(Rumbl.Repo, []),
       # Start the endpoint when the application starts
       supervisor(Rumbl.Endpoint, []),
-      # Start our own counter service
-      worker(Rumbl.Counter, [5])
     ]
 
     # See http://elixir-lang.org/docs/stable/elixir/Supervisor.html
