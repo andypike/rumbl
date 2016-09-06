@@ -54,7 +54,8 @@ defmodule Rumbl.Mixfile do
       {:cowboy, "~> 1.0"},
       {:comeonin, "~> 2.0"},
       {:credo, "~> 0.4.11", only: [:dev, :test]},
-      {:plug, "~> 1.2-rc", override: true}
+      {:plug, "~> 1.2-rc", override: true},
+      {:sweet_xml, "~> 0.5.0"}
     ]
   end
 
